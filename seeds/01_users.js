@@ -6,16 +6,19 @@ exports.seed = function(knex, Promise) {
     .then(function () {
       const users = [
         {
+          id:1,
           name: "Tyler Briskie",
           email:"tylerbriskie@gmail.com",
           password:"kittens"
         },
         {
+          id:2,
           name:"Ikechukwu Obidike",
           email:"ikobidike@gmail.com",
           password:"goose"
         },
         {
+          id:3,
           name:"Chana Reynolds",
           email:"chanareynolds@yahoo.com",
           password:"cashmere"
